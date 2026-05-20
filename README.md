@@ -26,9 +26,11 @@ pip install pandas numpy matplotlib seaborn openpyxl
 
 ## 📁 Estructura del Repositorio
 ```text
-├── proyecto_eda.ipynb              # Cuaderno de Jupyter con el código, análisis y gráficas.
-├── bank-additional.csv             # Dataset principal con los resultados de la campaña telefónica.
-├── customer-details.xlsx           # Dataset histórico con los datos personales de los clientes (pestañas 2012, 2013, 2014).
+├── notebooks/
+│   └── proyecto_eda.ipynb          # Cuaderno de Jupyter con el código, análisis y gráficas.
+├── datos/
+│   ├── bank-additional.csv         # Dataset principal con los resultados de la campaña telefónica.
+│   └── customer-details.xlsx       # Dataset histórico con los datos personales de los clientes (pestañas 2012, 2013, 2014).
 └── README.md                       # Documentación explicativa del proyecto.
 ```
 
